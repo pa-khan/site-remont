@@ -56,4 +56,10 @@ $(document).ready(function($) {
 		$('.panel__nav').toggleClass('panel__nav_toggle');
 		$(this).toggleClass('mobile-btn_toggle');
     })
+    $(".panel__nav a[href^='#']").click(function(){
+        var _href = $(this).attr("href");
+        $('.panel__nav').removeClass('panel__nav_toggle');
+        $("html, body").animate({scrollTop: $(_href).offset().top - 50 +"px"}, 1500);
+        return false;
+    });
 });

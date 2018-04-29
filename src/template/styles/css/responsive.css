@@ -1,4 +1,4 @@
-@media screen and (max-height: 740px), screen and (max-width: 1199px) {
+@media screen and (max-height: 740px) {
   .header {
     height: 100%; }
     .header__title {
@@ -36,6 +36,19 @@
       right: -15px; } }
 
 @media screen and (max-width: 1199px) {
+  .header {
+    height: 100%; }
+    .header__title {
+      font-size: 50px; }
+    .header__content {
+      position: relative;
+      -webkit-transform: none;
+          -ms-transform: none;
+              transform: none;
+      top: 0;
+      padding-top: 30px;
+      padding-bottom: 0;
+      padding-bottom: 50px; }
   .panel {
     padding-top: 20px; }
     .panel__logo {

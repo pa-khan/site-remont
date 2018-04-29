@@ -1,4 +1,4 @@
-@media screen and (max-height: 740px) {
+@media screen and (max-height: 740px), screen and (max-width: 1199px) {
   .header {
     height: 100%; }
     .header__title {
@@ -356,7 +356,13 @@
         -webkit-box-pack: center;
         -webkit-justify-content: center;
             -ms-flex-pack: center;
-                justify-content: center; } }
+                justify-content: center; }
+  .popup_order .popup__input {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+  .popup__btn {
+    font-size: 20px; } }
 
 @media screen and (max-width: 450px) {
   .reviews__title {

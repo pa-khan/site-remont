@@ -1,13 +1,420 @@
+@media screen and (max-height: 740px)
+	.header
+		height: 100%
+		&__title
+			font-size: 50px
+		&__content
+			position: relative
+			transform: none
+			top: 0
+			padding-top: 30px
+			padding-bottom: 0
+			padding-bottom: 50px
+
+@media screen and (max-height: 60px)
+	s
+@media screen and (max-width: 1485px)
+	.case
+		&_more
+			width: 1170px
+
+	.panel
+		&__logo
+			margin-right: 55px
+		&__nav
+			margin-right: 55px
+			ul
+				width: 470px
+
+		&__phone
+			.icon
+				margin-right: 10px
+		&__btn
+			margin-left: 30px
+			margin-right: 0
+	.types
+		&__list
+			padding-left: 15px
+			padding-right: 15px
+			.slick-prev
+				left: -15px
+			.slick-next
+				right: -15px
 @media screen and (max-width: 1199px)
+	.panel
+		padding-top: 20px
+		&__logo
+			margin-right: 40px
+		&__nav
+			margin-right: 0
+		&__phone
+			width: 180px
+			margin-left: (17px + 15px)
+			text-align: center
+			justify-content: center
+			position: relative
+			top: -15px
+			padding-right: 2px
+		&__btn
+			position: absolute
+			bottom: -20px
+			right: 15px
 	.case
 		width: 950px
 
+	.header
+		min-height: 1px
+		&__title
+			font-size: 42px
+			line-height: 42px
+			margin-bottom: 35px
+		&__btn
+			margin-bottom: 40px
+			max-width: 280px
+		&__content
+			padding-top: 50px
 
-@media screen and (max-width: 970px)
+	.advantages
+		&__icon
+			margin-bottom: 15px
+		&__text
+			font-size: 18px
+
+
+	.btn
+		&_extra
+			font-size: 16px
+			line-height: 50px
+	.title
+		font-size: 32px
+		margin-bottom: 25px
+		&:after
+			display: none
+	.types
+		&__list
+			.slick-arrow
+				top: 100px
+		&__imgs
+			height: 230px
+			img
+				width: 280px
+		&__subtitle
+			font-size: 22px
+
+	.discount
+		.case
+			&:before
+				left: 15px
+			&:after
+				right: 15px
+		&__wrap
+
+	.services
+		padding-top: 25px
+		padding-bottom: 25px
+		&__title
+			margin-bottom: 15px
+		&__data
+			padding: 15px 15px 15px 35px
+			li
+				&:before
+					left: -20px
+		&__foot
+			padding-left: 15px
+			padding-right: 15px
+
+	.works
+		padding-top: 25px
+		padding-bottom: 25px
+		&__main, &__list
+			max-width: 100%
+		&__list
+			margin-top: 20px
+			.slick-arrow
+				display: none
+			&-item
+				img
+					margin-left: auto
+					margin-right: auto
+
+
+@media screen and (max-width: 992px)
 	.case
 		width: 750px
 
+	.panel
+		&__logo
+			margin-right: 10px
+		&__btn
+			margin-right: 45px
 
+		&__btn, &__phone
+			position: relative
+			top: 0
+			bottom: 0
+			right: 0
+		&__nav
+			z-index: 10
+			position: fixed
+			top: 0
+			left: 0
+			width: 240px
+			height: 100%
+			transform: translateX(-250px)
+			background-color: #ff9b24
+			transition: .3s
+			&_toggle
+				transform: translateX(0px)
+			ul, li
+				width: 100%
+			ul
+				padding: 15px
+			li
+				font-size: 24px
+				margin-bottom: 5px
+				&:last-of-type
+					margin-bottom: 0
+			a
+				&:before
+					bottom: 0
+					left: -15px
+	.mobile-btn
+		position: relative
+		width: 40px
+		display: block
+		cursor: pointer
+		span
+			position: relative
+			display: block
+			width: 100%
+			height: 4px
+			background-color: #fff
+			transition: .3s
+			margin-bottom: 7px
+			&:last-of-type
+				margin-bottom: 0
+		&_toggle
+			span
+				&:nth-of-type(1)
+					top: 11px
+					transform: rotate(-45deg)
+				&:nth-of-type(2)
+					opacity: 0
+				&:nth-of-type(3)
+					top: -11px
+					transform: rotate(45deg)
+
+	.types
+		padding-top: 25px
+		padding-bottom: 25px
+		&__list
+			.slick-arrow
+				top: 73px
+		&__imgs
+			height: 185px
+			img
+				width: 215px
+		&__subtitle
+			margin-bottom: 10px
+
+	.discount
+		padding-top: 25px
+		padding-bottom: 25px
+		.case, &__wrap
+			&:before, &:after
+				display: none
+		&__wrap
+			border-left: none
+			border-right: none
+		&__title
+			top: 0
+			margin-bottom: 10px
+		&__desc
+			margin-top: 0
+		&__elements
+			bottom: 0
+			padding-left: 0
+			padding-right: 0
+
+	.services
+		&__list
+			margin-left: -10px
+			margin-right: -10px
+		&__item
+		    margin: 0 10px
+		&__head
+			padding-top: 20px !important
+			padding-bottom: 20px !important
+		&__btn
+			padding: 7px 10px
+			line-height: normal
+		&__foot
+			padding-top: 15px !important
+			padding-bottom: 15px !important
+			span
+				display: block
+	.reviews
+		padding-top: 25px
+		padding-bottom: 25px
+		&__title
+			margin-bottom: 10px
+		&__list
+			.slick-dots
+				margin-top: 5px
+	.map
+		iframe
+			height: 350px
+
+	.footer
+		font-size: 20px
 @media screen and (max-width: 767px)
+	.panel
+		&__wrap
+			position: relative
+			max-width: 280px
+			margin-left: auto
+			margin-right: auto
+
+		&__logo, &__phone
+			width: 100%
+
+		&__phone
+			margin-left: 0
+			padding-right: 0
+			margin-top: 15px
+			padding-bottom: 15px
+			.icon
+				position: relative
+				top: 3.5px
+			a
+				font-size: 20px
+				display: inline-block
+				vertical-align: middle
+
+	.mobile-btn
+		position: absolute
+		top: 4px
+		right: 0
+		bottom: auto
 	.case
 		width: 100%
+
+	.header
+		&__content
+			padding-top: 20px
+			padding-bottom: 15px
+		&__title
+			font-size: 30px
+			line-height: normal
+			margin-bottom: 15px
+		&__btn
+			margin-bottom: 30px
+
+	.advantages
+		&__item
+			padding-left: 5px
+			padding-right: 5px
+			margin-bottom: 25px
+
+	.types
+		padding-bottom: 20px
+		&__list
+			padding-left: 0
+			padding-right: 0
+			.slick-arrow
+				top: -65px
+		&__imgs
+			height: auto
+			margin-bottom: 20px
+			display: block
+			img
+				width: auto
+				margin-left: auto
+				margin-right: auto
+				margin-bottom: 10px
+		&__subtitle
+
+	.steps
+		padding-top: 25px
+		padding-bottom: 25px
+		&__title
+			margin-bottom: 10px
+		&__list
+			display: block
+			max-width: 280px
+			margin-left: auto
+			margin-right: auto
+			margin-top: 15px
+		&__item
+			width: 100%
+			margin-bottom: 30px
+			&:last-of-type
+				margin-bottom: 0
+
+	.counts
+		padding-top: 25px
+		padding-bottom: 0px
+		&__title
+			font-size: 26px
+		&__list
+			display: flex
+		&__item
+			width: 100%
+			margin-bottom: 25px
+		&__count
+			font-size: 40px
+			line-height: 30px
+		&__text
+			font-size: 16px
+
+	.discount
+		&__input, &__btn
+			width: 100%
+			margin-bottom: 10px
+			margin-left: auto
+			margin-right: auto
+
+	.services
+		&__item
+			width: 100%
+			margin-bottom: 30px
+			&:last-of-type
+				margin-bottom: 0
+
+	.footer
+		padding-top: 15px
+		padding-bottom: 15px
+		&__email, &__phone, &__socials
+			width: 100%
+			text-align: center
+
+		&__socials
+			margin-top: 10px
+			ul
+				justify-content: center
+
+@media screen and (max-width: 450px)
+	.reviews
+		&__title
+			margin-bottom: 0
+		&__item
+			padding: 0 15px 15px
+		&__data, &__content
+			width: 100%
+		&__img
+			width: 119px
+			height: 119px
+			margin-left: auto
+			margin-right: auto
+		&__links
+			display: none
+		&__name
+			margin-bottom: 5px
+			text-align: center
+	
+@media screen and (max-width: 350px)
+	.works__list
+		&-item
+			padding-left: 7px
+			padding-right: 7px
+			img

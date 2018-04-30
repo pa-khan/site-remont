@@ -1,6 +1,7 @@
 /* Including styles files */
 @import url("../../libs/fancybox/dist/jquery.fancybox.css");
 @import url("../../libs/slick-carousel/slick/slick.css");
+@import url("../../libs/animate.css/animate.css");
 .icon-arrow-down {
   background-image: url(../../img/sprite.png);
   background-position: -82px -137px;

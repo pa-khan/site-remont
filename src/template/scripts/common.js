@@ -63,4 +63,6 @@ $(document).ready(function($) {
         $("html, body").animate({scrollTop: $(_href).offset().top - 50 +"px"}, 1500);
         return false;
     });
+
+		new WOW().init();
 });

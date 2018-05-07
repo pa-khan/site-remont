@@ -542,7 +542,9 @@ img {
   padding-top: 33px; }
   .panel__logo {
     width: 198px;
-    margin-right: 200px; }
+    font-size: 60px;
+    margin-right: 200px;
+    font-weight: 700; }
   .panel__nav {
     margin-right: 65px;
     font-size: 16px;
@@ -927,6 +929,18 @@ img {
     margin-bottom: 24px; }
   .reviews__text {
     line-height: 24px; }
+
+.partners {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .partners__item {
+    width: -webkit-calc(100% / 6);
+    width: calc(100% / 6);
+    line-height: 75px;
+    text-align: center; }
+    .partners__item img {
+      display: inline-block;
+      vertical-align: middle; }
 
 .map iframe {
   margin-bottom: -5px; }

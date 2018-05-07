@@ -130,7 +130,9 @@
         display: none; }
       .works__list-item img {
         margin-left: auto;
-        margin-right: auto; } }
+        margin-right: auto; }
+  .partners__item {
+    width: 33.333%; } }
 
 @media screen and (max-width: 992px) {
   .case {
@@ -277,6 +279,8 @@
       font-size: 20px;
       display: inline-block;
       vertical-align: middle; }
+  .panel__logo {
+    text-align: center; }
   .mobile-btn {
     position: absolute;
     top: 4px;
@@ -370,6 +374,8 @@
         -webkit-justify-content: center;
             -ms-flex-pack: center;
                 justify-content: center; }
+  .partners__item {
+    width: 50%; }
   .popup_order .popup__input {
     width: 100%;
     padding-left: 0 !important;
